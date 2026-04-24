@@ -47,9 +47,9 @@ const Hero = () => {
       {/* Heart BG parallax */}
       <motion.div
         style={{ y: bgY }}
-        className="absolute inset-0 z-[2] flex items-center justify-end pointer-events-none"
+        className="absolute inset-0 z-[2] flex items-center justify-center lg:justify-end pointer-events-none"
       >
-        <div className="relative w-[580px] h-full opacity-[0.15] pr-8 lg:pr-24">
+        <div className="relative w-[300px] sm:w-[400px] lg:w-[580px] h-full opacity-[0.08] lg:opacity-[0.15] pr-0 lg:pr-8 lg:pr-24">
           <Image
             src="/images/Screenshot from 2026-04-23 16-44-47-Picsart-BackgroundRemover.png"
             alt="Anatomical Heart"
@@ -63,12 +63,12 @@ const Hero = () => {
       {/* Content */}
       <motion.div
         style={{ opacity: contentOpacity }}
-        className="relative z-10 max-w-[1800px] mx-auto px-8 md:px-16 lg:px-24 w-full pt-20 pb-40"
+        className="relative z-10 max-w-[1800px] mx-auto px-4 sm:px-8 md:px-16 lg:px-24 w-full pt-16 md:pt-20 pb-20 md:pb-40"
       >
         {/* Clearance for fixed navbar */}
-        <div className="h-32 md:h-40" />
+        <div className="h-24 md:h-32 lg:h-40" />
 
-        <div className="grid lg:grid-cols-2 gap-24 items-center min-h-[88vh]">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-24 items-center min-h-[88vh]">
           {/* Left — Text */}
           <motion.div
             initial={{ opacity: 0, y: 40 }}
@@ -76,16 +76,16 @@ const Hero = () => {
             transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
           >
             {/* Eyebrow */}
-            <div className="flex items-center gap-3 mb-8">
-              <div className="h-px w-10 bg-primary" />
-              <span className="text-[10px] font-black tracking-[0.5em] text-primary uppercase">
+            <div className="flex items-center gap-3 mb-6 md:mb-8">
+              <div className="h-px w-8 md:w-10 bg-primary" />
+              <span className="text-[9px] md:text-[10px] font-black tracking-[0.4em] md:tracking-[0.5em] text-primary uppercase">
                 Aristo × Jaypee Brothers
               </span>
             </div>
 
             {/* Headline */}
             <h1
-              className="text-[3.5rem] sm:text-[5rem] lg:text-[6rem] xl:text-[7rem] font-black leading-[1.1] tracking-[-0.02em] mb-20 text-foreground uppercase"
+              className="text-[2.5rem] sm:text-[3.5rem] md:text-[5rem] lg:text-[6rem] xl:text-[7rem] font-black leading-[1.1] tracking-[-0.02em] mb-12 md:mb-20 text-foreground uppercase"
               style={{ fontFamily: "var(--font-serif), serif" }}
             >
               Advancing
@@ -98,20 +98,20 @@ const Hero = () => {
             </h1>
 
             {/* Subtext */}
-            <p className="text-base md:text-lg text-foreground/50 leading-relaxed max-w-md mb-16 font-medium">
+            <p className="text-sm md:text-base lg:text-lg text-foreground/50 leading-relaxed max-w-md mb-12 md:mb-16 font-medium">
               Discover a curated digital library of cardiovascular intelligence.
               The definitive resource for cardiac professionals and researchers,
               powered by Jaypee Brothers Medical Publishers.
             </p>
 
             {/* CTAs */}
-            <div className="flex flex-wrap items-center gap-5">
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 sm:gap-5">
               <button
                 onClick={() => router.push("/library")}
-                className="group flex items-center gap-3 bg-primary hover:bg-primary/90 text-white px-8 py-4 rounded-full text-[11px] font-black tracking-[0.3em] uppercase transition-all duration-300 shadow-[0_16px_40px_rgba(227,30,37,0.35)] hover:shadow-[0_20px_50px_rgba(227,30,37,0.45)] hover:-translate-y-0.5"
+                className="group flex items-center justify-center gap-3 bg-primary hover:bg-primary/90 text-white px-6 md:px-8 py-3 md:py-4 rounded-full text-[10px] md:text-[11px] font-black tracking-[0.2em] md:tracking-[0.3em] uppercase transition-all duration-300 shadow-[0_16px_40px_rgba(227,30,37,0.35)] hover:shadow-[0_20px_50px_rgba(227,30,37,0.45)] hover:-translate-y-0.5"
               >
                 Explore Library
-                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                <ArrowRight className="w-3 h-3 md:w-4 md:h-4 group-hover:translate-x-1 transition-transform" />
               </button>
               <button
                 onClick={() =>
@@ -119,7 +119,7 @@ const Hero = () => {
                     .getElementById("partnership")
                     ?.scrollIntoView({ behavior: "smooth" })
                 }
-                className="flex items-center gap-3 border border-border text-foreground/50 hover:text-foreground hover:border-foreground/20 hover:bg-foreground/[0.04] px-8 py-4 rounded-full text-[11px] font-black tracking-[0.3em] uppercase transition-all duration-300"
+                className="flex items-center justify-center gap-3 border border-border text-foreground/50 hover:text-foreground hover:border-foreground/20 hover:bg-foreground/[0.04] px-6 md:px-8 py-3 md:py-4 rounded-full text-[10px] md:text-[11px] font-black tracking-[0.2em] md:tracking-[0.3em] uppercase transition-all duration-300"
               >
                 Our Partnership
               </button>
@@ -131,14 +131,14 @@ const Hero = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4, duration: 1 }}
-            className="hidden lg:flex flex-col gap-8 justify-center"
+            className="flex flex-col gap-6 md:gap-8 justify-center mt-12 lg:mt-0"
           >
             {/* Logo */}
             <motion.div
               initial={{ opacity: 0, x: 40 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.4, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-              className="relative h-32 w-80 -ml-4"
+              className="relative h-24 md:h-32 w-60 md:w-80 -ml-2 md:-ml-4"
             >
               <Image
                 src="/images/logo.jpeg"
@@ -150,31 +150,33 @@ const Hero = () => {
             </motion.div>
 
             {/* Stat cards */}
-            {stats.map((stat, i) => (
-              <motion.div
-                key={stat.label}
-                initial={{ opacity: 0, x: 40 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: 0.55 + i * 0.14, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-                whileHover={{ x: 10 }}
-                className="flex items-center gap-6 bg-foreground/[0.04] border border-border rounded-2xl px-8 py-7 cursor-default group hover:border-primary/20 hover:bg-foreground/[0.06] transition-all duration-300"
-              >
-                <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0 group-hover:bg-primary/15 transition-colors">
-                  <stat.icon className="w-5 h-5 text-primary" />
-                </div>
-                <div>
-                  <div
-                    className="text-3xl font-black text-foreground tracking-tight"
-                    style={{ fontFamily: "var(--font-serif), serif" }}
-                  >
-                    {stat.value}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4 md:gap-6">
+              {stats.map((stat, i) => (
+                <motion.div
+                  key={stat.label}
+                  initial={{ opacity: 0, x: 40 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.55 + i * 0.14, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+                  whileHover={{ x: 10 }}
+                  className="flex items-center gap-4 md:gap-6 bg-foreground/[0.04] border border-border rounded-2xl px-6 md:px-8 py-5 md:py-7 cursor-default group hover:border-primary/20 hover:bg-foreground/[0.06] transition-all duration-300"
+                >
+                  <div className="h-10 w-10 md:h-12 md:w-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0 group-hover:bg-primary/15 transition-colors">
+                    <stat.icon className="w-4 h-4 md:w-5 md:h-5 text-primary" />
                   </div>
-                  <div className="text-[10px] font-bold text-muted-foreground uppercase tracking-[0.3em] mt-1">
-                    {stat.label}
+                  <div>
+                    <div
+                      className="text-2xl md:text-3xl font-black text-foreground tracking-tight"
+                      style={{ fontFamily: "var(--font-serif), serif" }}
+                    >
+                      {stat.value}
+                    </div>
+                    <div className="text-[9px] md:text-[10px] font-bold text-muted-foreground uppercase tracking-[0.2em] md:tracking-[0.3em] mt-1">
+                      {stat.label}
+                    </div>
                   </div>
-                </div>
-              </motion.div>
-            ))}
+                </motion.div>
+              ))}
+            </div>
           </motion.div>
         </div>
 
@@ -183,15 +185,15 @@ const Hero = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.4 }}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
+          className="absolute bottom-4 md:bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
         >
-          <span className="text-[9px] tracking-[0.4em] text-foreground/30 uppercase font-bold">
+          <span className="text-[8px] md:text-[9px] tracking-[0.3em] md:tracking-[0.4em] text-foreground/30 uppercase font-bold">
             Scroll
           </span>
           <motion.div
             animate={{ y: [0, 8, 0] }}
             transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
-            className="w-px h-10 bg-gradient-to-b from-foreground/20 to-transparent"
+            className="w-px h-8 md:h-10 bg-gradient-to-b from-foreground/20 to-transparent"
           />
         </motion.div>
       </motion.div>

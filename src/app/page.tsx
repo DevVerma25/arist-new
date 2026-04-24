@@ -22,8 +22,9 @@ export default function Home() {
         <PartnershipSection />
       </div>
       {/* Featured Digital Repository */}
-      <div className="relative py-20">
+      <div className="relative py-5">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-secondary/5 to-transparent pointer-events-none" />
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[2px] bg-gradient-to-r from-transparent via-primary/30 to-transparent" />
         <BookGrid limit={8} />
       </div>
 

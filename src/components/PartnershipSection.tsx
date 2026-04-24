@@ -32,7 +32,7 @@ const PartnershipSection = () => {
   return (
     <section
       id="partnership"
-      className="relative py-[11rem] md:py-[16rem] bg-background border-t border-border overflow-hidden"
+      className="relative pt-[11rem] pb-[2rem] md:pt-[16rem] md:pb-[4rem] bg-background border-t border-border overflow-hidden"
     >
       {/* Background accent */}
       <div className="absolute inset-0 pointer-events-none">
