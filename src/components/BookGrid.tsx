@@ -69,11 +69,11 @@ const BookGrid = ({ limit, showTitle = true, books: booksProp }: BookGridProps) 
   }, [booksProp]);
 
   return (
-    <section id="library" className="relative py-[11rem] md:py-[15rem] bg-background overflow-hidden">
+    <section id="library" className="relative py-[6rem] md:py-[15rem] bg-background overflow-hidden">
       {/* Subtle bg glows */}
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-1/3 -right-40 w-[600px] h-[600px] bg-primary/[0.05] rounded-full blur-[200px]" />
-        <div className="absolute bottom-1/4 -left-40 w-[500px] h-[500px] bg-primary/[0.04] rounded-full blur-[180px]" />
+        <div className="absolute top-1/3 -right-20 sm:-right-40 w-[400px] sm:w-[600px] h-[400px] sm:h-[600px] bg-primary/[0.05] rounded-full blur-[150px] sm:blur-[200px]" />
+        <div className="absolute bottom-1/4 -left-20 sm:-left-40 w-[300px] sm:w-[500px] h-[300px] sm:h-[500px] bg-primary/[0.04] rounded-full blur-[120px] sm:blur-[180px]" />
       </div>
 
       <div className="relative z-10 max-w-[1800px] mx-auto px-8 md:px-16 lg:px-24">

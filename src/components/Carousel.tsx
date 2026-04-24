@@ -50,7 +50,7 @@ const Carousel = () => {
           </button>
 
           {/* Card */}
-          <div className="w-full overflow-hidden px-14">
+          <div className="w-full overflow-hidden px-8 sm:px-14">
             <AnimatePresence custom={direction} initial={false} mode="wait">
               <motion.div
                 key={current}

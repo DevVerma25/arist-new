@@ -15,12 +15,12 @@ const Footer = () => {
   };
 
   return (
-    <footer className="relative bg-background border-t border-border pt-32 pb-12 overflow-hidden">
+    <footer className="relative bg-background border-t border-border pt-16 md:pt-32 pb-12 overflow-hidden">
       {/* Background Decor */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute inset-0 dot-grid opacity-30" />
-        <div className="absolute top-0 left-1/4 w-[500px] h-[500px] bg-primary/[0.03] rounded-full blur-[120px]" />
-        <div className="absolute bottom-0 right-1/4 w-[500px] h-[500px] bg-primary/[0.03] rounded-full blur-[120px]" />
+        <div className="absolute top-0 left-1/4 w-[300px] sm:w-[500px] h-[300px] sm:h-[500px] bg-primary/[0.03] rounded-full blur-[100px] sm:blur-[120px]" />
+        <div className="absolute bottom-0 right-1/4 w-[300px] sm:w-[500px] h-[300px] sm:h-[500px] bg-primary/[0.03] rounded-full blur-[100px] sm:blur-[120px]" />
       </div>
 
       <div className="relative z-10 max-w-[1800px] mx-auto px-8 md:px-16 lg:px-24">

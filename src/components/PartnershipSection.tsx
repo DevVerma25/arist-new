@@ -32,13 +32,13 @@ const PartnershipSection = () => {
   return (
     <section
       id="partnership"
-      className="relative pt-[11rem] pb-[2rem] md:pt-[16rem] md:pb-[4rem] bg-background border-t border-border overflow-hidden"
+      className="relative pt-[6rem] pb-[2rem] md:pt-[16rem] md:pb-[4rem] bg-background border-t border-border overflow-hidden"
     >
       {/* Background accent */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[2px] bg-gradient-to-r from-transparent via-primary/30 to-transparent" />
-        <div className="absolute top-1/2 -left-60 w-[500px] h-[500px] bg-primary/[0.04] rounded-full blur-[160px]" />
-        <div className="absolute top-1/4 -right-60 w-[500px] h-[500px] bg-primary/[0.04] rounded-full blur-[160px]" />
+        <div className="absolute top-1/2 -left-20 sm:-left-60 w-[300px] sm:w-[500px] h-[300px] sm:h-[500px] bg-primary/[0.04] rounded-full blur-[120px] sm:blur-[160px]" />
+        <div className="absolute top-1/4 -right-20 sm:-right-60 w-[300px] sm:w-[500px] h-[300px] sm:h-[500px] bg-primary/[0.04] rounded-full blur-[120px] sm:blur-[160px]" />
       </div>
 
       <div className="relative z-10 max-w-[1800px] mx-auto px-8 md:px-16 lg:px-24">
