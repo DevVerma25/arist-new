@@ -1,18 +1,5 @@
 [
   {
-    "title": "Essentials of Pediatric Cardiology",
-    "DOI": "10.5005/jp/books/11268",
-    "ISBN": "9788184489934",
-    "Author": "Anita Khalil",
-    "speciality": "Cardiology,Pediatrics",
-    "category": "Medicine",
-    "Type": "Textbook",
-    "Edition": "2/e Reprint",
-    "Copyrightyear": "2025",
-    "URL": "https://www.jaypeedigital.com/book/9788184489934",
-    "image": "https://d45jl3w9libvn.cloudfront.net/jaypee/static/books/9788184489934/9788184489934.png"
-  },
-  {
     "title": "Arrhythmias 101",
     "DOI": "10.5005/jp/books/11850",
     "ISBN": "9789350904992",
@@ -63,19 +50,6 @@
     "Copyrightyear": "2025",
     "URL": "https://www.jaypeedigital.com/book/9789351521754",
     "image": "https://d45jl3w9libvn.cloudfront.net/jaypee/static/books/9789351521754/9789351521754.png"
-  },
-  {
-    "title": "CSI: Handbook on Cardiac Critical Care",
-    "DOI": "10.5005/jp/books/12820",
-    "ISBN": "9789385891076",
-    "Author": "S Ramakrishnan, Rishi Sethi, Santanu Guha",
-    "speciality": "Cardiology",
-    "category": "Medicine",
-    "Type": "Professional",
-    "Edition": "1/e Reprint",
-    "Copyrightyear": "2025",
-    "URL": "https://www.jaypeedigital.com/book/9789385891076",
-    "image": "https://d45jl3w9libvn.cloudfront.net/jaypee/static/books/9789385891076/9789385891076.png"
   },
   {
     "title": "Cardiac Pacing: A Physiological Approach",
@@ -182,19 +156,6 @@
     "image": "https://d45jl3w9libvn.cloudfront.net/jaypee/static/books/9789389188585/9789389188585.png"
   },
   {
-    "title": "Comprehensive Textbook of Echocardiography",
-    "DOI": "10.5005/jp/books/18299",
-    "ISBN": "9789352701643",
-    "Author": "Navin C Nanda",
-    "speciality": "Cardiology",
-    "category": "Medicine",
-    "Type": "Professional",
-    "Edition": "2/e",
-    "Copyrightyear": "2020",
-    "URL": "https://www.jaypeedigital.com/book/9789352701643",
-    "image": "https://d45jl3w9libvn.cloudfront.net/jaypee/static/books/9789352701643/9789352701643.png"
-  },
-  {
     "title": "Hypertension: A Case-based Approach",
     "DOI": "10.5005/jp/books/18315",
     "ISBN": "9789386261489",
@@ -271,19 +232,6 @@
     "Copyrightyear": "2025",
     "URL": "https://www.jaypeedigital.com/book/9789352702886",
     "image": "https://d45jl3w9libvn.cloudfront.net/jaypee/static/books/9789352702886/9789352702886.png"
-  },
-  {
-    "title": "Advances and Innovations in Heart Failure (AIHF): A Textbook of Cardiology",
-    "DOI": "10.5005/jp/books/18422",
-    "ISBN": "9789389587890",
-    "Author": "Navin C Nanda, HK Chopra, Jagat Narula",
-    "speciality": "Cardiology",
-    "category": "Medicine",
-    "Type": "Professional",
-    "Edition": "1/e",
-    "Copyrightyear": "2020",
-    "URL": "https://www.jaypeedigital.com/book/9789389587890",
-    "image": "https://d45jl3w9libvn.cloudfront.net/jaypee/static/books/9789389587890/9789389587890.png"
   },
   {
     "title": "Clinical Handbook of Coronary Artery Disease",
@@ -611,45 +559,6 @@
     "image": "https://d45jl3w9libvn.cloudfront.net/jaypee/static/books/9789356962613/9789356962613.png"
   },
   {
-    "title": "Coronary OCT: A Case-based Approach",
-    "DOI": "10.5005/jp/books/19049",
-    "ISBN": "9789356963900",
-    "Author": "Sridhar Kasturi",
-    "speciality": "Cardiology",
-    "category": "Medicine",
-    "Type": "Professional",
-    "Edition": "1/e",
-    "Copyrightyear": "2024",
-    "URL": "https://www.jaypeedigital.com/book/9789356963900",
-    "image": "https://d45jl3w9libvn.cloudfront.net/jaypee/static/books/9789356963900/9789356963900.png"
-  },
-  {
-    "title": "Comprehensive Textbook of Echocardiography (2 Volumess)",
-    "DOI": "10.5005/jp/books/19044",
-    "ISBN": "9789366162119",
-    "Author": "Navin C Nanda",
-    "speciality": "Cardiology,Medicine",
-    "category": "Medicine,Medicine",
-    "Type": "Professional",
-    "Edition": "3/e",
-    "Copyrightyear": "2025",
-    "URL": "https://www.jaypeedigital.com/book/9789366162119",
-    "image": "https://d45jl3w9libvn.cloudfront.net/jaypee/static/books/9789366162119/9789366162119.png"
-  },
-  {
-    "title": "Learn Clinical Reasoning in Cardiology Through Cases",
-    "DOI": "10.5005/jp/books/19065",
-    "ISBN": "9789366162492",
-    "Author": "Shyam S Kothari",
-    "speciality": "Cardiology,Medicine",
-    "category": "Medicine,Medicine",
-    "Type": "Textbook",
-    "Edition": "1/e",
-    "Copyrightyear": "2026",
-    "URL": "https://www.jaypeedigital.com/book/9789366162492",
-    "image": "https://d45jl3w9libvn.cloudfront.net/jaypee/static/books/9789366162492/9789366162492.png"
-  },
-  {
     "title": "The Protocol Book for Intensive Care",
     "DOI": "10.5005/jp/books/19089",
     "ISBN": "9789366165035",
@@ -661,5 +570,83 @@
     "Copyrightyear": "2025",
     "URL": "https://www.jaypeedigital.com/book/9789366165035",
     "image": "https://d45jl3w9libvn.cloudfront.net/jaypee/static/books/9789366165035/9789366165035.png"
+  },
+  {
+    "title": "Review of Cardiac Anesthesia with 2,100 MCQs (For all Examinations in Cardiac Anesthesia)",
+    "DOI": "10.5005/jp/books/11994",
+    "ISBN": "9789350906590",
+    "Author": "Poonam Malhotra Kapoor",
+    "speciality": "Cardiology,Anaesthesia,MCQs and Self-assessment",
+    "category": "Medicine,Medicine,Medicine",
+    "Type": "Reference",
+    "Edition": "1/e",
+    "Copyrightyear": "2013",
+    "URL": "https://www.jaypeedigital.com/book/9789350906590",
+    "image": "https://d45jl3w9libvn.cloudfront.net/jaypee/static/books/9789350906590/9789350906590.png"
+  },
+  {
+    "title": "Advances in Cardiology",
+    "DOI": "10.5005/jp/books/12187",
+    "ISBN": "9789350909638",
+    "Author": "Kanu Chatterjee, Phillip A Horwitz",
+    "speciality": "Cardiology",
+    "category": "Medicine",
+    "Type": "Reference",
+    "Edition": "1/e",
+    "Copyrightyear": "2014",
+    "URL": "https://www.jaypeedigital.com/book/9789350909638",
+    "image": "https://d45jl3w9libvn.cloudfront.net/jaypee/static/books/9789350909638/9789350909638.png"
+  },
+  {
+    "title": "Recent Advances in Cardiology 16",
+    "DOI": "10.5005/jp/books/12195",
+    "ISBN": "9781907816819",
+    "Author": "Derek Rowlands, Bernard Clarke",
+    "speciality": "Cardiology",
+    "category": "Medicine",
+    "Type": "Reference",
+    "Edition": "1/e",
+    "Copyrightyear": "2014",
+    "URL": "https://www.jaypeedigital.com/book/9781907816819",
+    "image": "https://d45jl3w9libvn.cloudfront.net/jaypee/static/books/9781907816819/9781907816819.png"
+  },
+  {
+    "title": "Manual of Electrophysiology",
+    "DOI": "10.5005/jp/books/12437",
+    "ISBN": "9789351526643",
+    "Author": "Kanu Chatterjee",
+    "speciality": "Cardiology",
+    "category": "Medicine",
+    "Type": "Reference",
+    "Edition": "1/e",
+    "Copyrightyear": "2015",
+    "URL": "https://www.jaypeedigital.com/book/9789351526643",
+    "image": "https://d45jl3w9libvn.cloudfront.net/jaypee/static/books/9789351526643/9789351526643.png"
+  },
+  {
+    "title": "Clinical Methods in Cardiology",
+    "DOI": "10.5005/jp/books/12471",
+    "ISBN": "9789351526650",
+    "Author": "RS Sharma",
+    "speciality": "Cardiology",
+    "category": "Medicine",
+    "Type": "Textbook",
+    "Edition": "1/e",
+    "Copyrightyear": "2015",
+    "URL": "https://www.jaypeedigital.com/book/9789351526650",
+    "image": "https://d45jl3w9libvn.cloudfront.net/jaypee/static/books/9789351526650/9789351526650.png"
+  },
+  {
+    "title": "CSI Textbook of Cardiology: The Indian Perspective",
+    "DOI": "10.5005/jp/books/18082",
+    "ISBN": "9789352702305",
+    "Author": "Pradip K Deb",
+    "speciality": "Cardiology",
+    "category": "Medicine",
+    "Type": "Textbook",
+    "Edition": "1/e",
+    "Copyrightyear": "2018",
+    "URL": "https://www.jaypeedigital.com/book/9789352702305",
+    "image": "https://d45jl3w9libvn.cloudfront.net/jaypee/static/books/9789352702305/9789352702305.png"
   }
 ]
