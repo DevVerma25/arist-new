@@ -1,11 +1,11 @@
 "use client";
 
-import React, { useState } from "react";
-import { motion } from "framer-motion";
-import { Download, ExternalLink, ArrowLeft } from "lucide-react";
-import { useRouter } from "next/navigation";
-import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
+import { motion } from "framer-motion";
+import { ArrowLeft, Download, ExternalLink } from "lucide-react";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
 
 export default function TelvasPage() {
   const router = useRouter();
@@ -48,7 +48,7 @@ export default function TelvasPage() {
                 </span>
               </div>
               <h1
-                className="text-3xl md:text-5xl font-black text-foreground tracking-tight leading-tight uppercase"
+                className="text-3xl lg:text-9xl text-red-600 text-foreground tracking-tight leading-tight"
                 style={{ fontFamily: "var(--font-serif), serif" }}
               >
                 Telvas

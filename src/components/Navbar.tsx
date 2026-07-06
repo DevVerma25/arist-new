@@ -1,10 +1,10 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import { AnimatePresence, motion } from "framer-motion";
+import { Menu, Moon, Sun, X } from "lucide-react";
 import Image from "next/image";
-import { useRouter, usePathname } from "next/navigation";
-import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Sun, Moon } from "lucide-react";
+import { usePathname, useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 
 const links = [
   { label: "Home", href: "/" },
@@ -61,7 +61,7 @@ const Navbar = () => {
               onClick={() => router.push("/")}
             >
               <Image
-                src="/images/logo.jpeg"
+                src="/images/logo-aristo.png"
                 alt="Aristo Logo"
                 fill
                 className="object-contain"

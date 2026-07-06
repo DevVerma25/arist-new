@@ -1,10 +1,8 @@
 "use client";
 
-import React from "react";
+import { ChevronUp, Globe, Mail, MapPin } from "lucide-react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { motion } from "framer-motion";
-import { ChevronUp, Mail, Globe, MapPin } from "lucide-react";
 
 const Footer = () => {
   const router = useRouter();
@@ -31,7 +29,7 @@ const Footer = () => {
             <div className="flex items-center gap-8 mb-10">
               <div className="relative h-12 w-40">
                 <Image
-                  src="/images/logo.jpeg"
+                  src="/images/logo-aristo.png"
                   alt="Aristo Logo"
                   fill
                   className="object-contain"
