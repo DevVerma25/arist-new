@@ -1,10 +1,10 @@
 "use client";
 
-import React, { useRef } from "react";
-import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowRight, BookOpen, Users } from "lucide-react";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
+import { useRef } from "react";
 
 const stats = [
   { icon: BookOpen, label: "Medical Titles", value: "50+" },
@@ -54,6 +54,7 @@ const Hero = () => {
             src="/images/Screenshot from 2026-04-23 16-44-47-Picsart-BackgroundRemover.png"
             alt="Anatomical Heart"
             fill
+            sizes="(max-width: 1024px) 300px, 580px"
             className="object-contain"
             priority
           />
@@ -144,6 +145,7 @@ const Hero = () => {
                 src="/images/logo.jpeg"
                 alt="Aristo Logo"
                 fill
+                sizes="(max-width: 768px) 240px, (max-width: 1024px) 320px, 360px"
                 className="object-contain object-left"
                 priority
               />

@@ -1,9 +1,8 @@
 "use client";
 
-import React from "react";
-import Image from "next/image";
 import { motion } from "framer-motion";
-import { Shield, Award, BookMarked, Microscope } from "lucide-react";
+import { Award, BookMarked, Microscope, Shield } from "lucide-react";
+import Image from "next/image";
 
 const pillars = [
   {
@@ -86,6 +85,7 @@ const PartnershipSection = () => {
                   src="/images/logo.jpeg"
                   alt="Aristo Pharmaceuticals"
                   fill
+                  sizes="112px"
                   className="object-contain"
                 />
               </div>
@@ -101,6 +101,7 @@ const PartnershipSection = () => {
                   src="/images/Jaypee-Logo.png"
                   alt="Jaypee Brothers"
                   fill
+                  sizes="96px"
                   className="object-contain"
                 />
               </div>

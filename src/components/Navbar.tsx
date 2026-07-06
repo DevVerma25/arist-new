@@ -64,6 +64,7 @@ const Navbar = () => {
                 src="/images/logo-aristo.png"
                 alt="Aristo Logo"
                 fill
+                sizes="(max-width: 768px) 96px, (max-width: 1024px) 132px, 176px"
                 className="object-contain"
                 priority
               />

@@ -1,9 +1,8 @@
 "use client";
 
-import React from "react";
-import Image from "next/image";
 import { motion } from "framer-motion";
-import { ExternalLink, BookOpen } from "lucide-react";
+import { BookOpen, ExternalLink } from "lucide-react";
+import Image from "next/image";
 
 interface BookProps {
   book: {
@@ -41,6 +40,7 @@ const BookCard = ({ book }: BookProps) => {
           src={imageUrl}
           alt={book.title}
           fill
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
           className="object-contain transition-transform duration-700 group-hover:scale-105 md: pt-10 py-5 pt-7"
         />
 

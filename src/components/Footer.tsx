@@ -32,6 +32,7 @@ const Footer = () => {
                   src="/images/logo-aristo.png"
                   alt="Aristo Logo"
                   fill
+                  sizes="160px"
                   className="object-contain"
                 />
               </div>
@@ -41,6 +42,7 @@ const Footer = () => {
                   src="/images/Jaypee-Logo.png"
                   alt="Jaypee Logo"
                   fill
+                  sizes="112px"
                   className="object-contain"
                 />
               </div>

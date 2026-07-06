@@ -1,9 +1,9 @@
 "use client";
 
-import React, { useState, useEffect, useCallback } from "react";
-import Image from "next/image";
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import Image from "next/image";
+import { useCallback, useEffect, useState } from "react";
 
 const slides = [
   { src: "/images/carasol1.jpeg", alt: "Slide 1" },
@@ -67,6 +67,7 @@ const Carousel = () => {
                   src={slides[current].src}
                   alt={slides[current].alt}
                   fill
+                  sizes="100vw"
                   className="object-cover"
                   priority
                 />
