@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
-import { Inter, Source_Serif_4, JetBrains_Mono } from "next/font/google";
+import { Inter, JetBrains_Mono, Source_Serif_4 } from "next/font/google";
 import "./globals.css";
+
+const siteUrl =
+  process.env.SITE_URL?.trim() ||
+  process.env.NEXT_PUBLIC_SITE_URL?.trim() ||
+  "http://localhost:3000";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -22,6 +27,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "Aristo Cardiac Library | Advancing Cardiovascular Knowledge",
   description:
     "A premium digital library of cardiovascular medical literature. A strategic collaboration between Aristo Pharmaceuticals and Jaypee Brothers Medical Publishers.",
